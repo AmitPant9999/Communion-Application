@@ -13,3 +13,20 @@ h1 {
 p {
   font-weight: 400; /* Regular weight for paragraph */
 }
+.header-container {
+ z-index: 100;
+  width: 100%;
+  
+}
+
+@media (min-width: 768px) {
+ 
+  .header-container {
+    padding:0 50px;
+    position: fixed;
+    top: 0;
+    left: 50%; /* Center the header horizontally */
+    transform: translateX(-50%); /* Center the header horizontally */
+    width: 100%; /* Equivalent to w-2/3 */
+  }
+}

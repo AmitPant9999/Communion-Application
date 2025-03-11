@@ -148,7 +148,7 @@ function Events() {
   return (
     <div>
       <Header />
-      <main>
+      <main className="md:mt-28">
         <motion.div
           initial={{ x: -100 }}
           animate={{ x: 0 }}

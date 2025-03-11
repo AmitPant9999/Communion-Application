@@ -3,9 +3,12 @@ import Header from "../Components/Header";
 function About() {
              return (
     <div>
-        <Header/>
+        <div className="">
 
-    <div className=" min-h-screen py-8 px-4 sm:px-8">
+        <Header/>
+        </div>
+
+    <div className=" min-h-screen py-2 px-4 sm:px-8 md:mt-20">
     
       
       <section className="max-w-6xl mx-auto">

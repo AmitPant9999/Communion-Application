@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className="text-black">
       <Header />
-      <main className="  lg:mt-5">
+      <main className="  md:mt-28">
         <div>
           <div className="">
             <div>
