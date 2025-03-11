@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif; /* Apply the font to the body */
+}
+
+h1 {
+  font-weight: 700; /* Bold weight for heading */
+}
+
+p {
+  font-weight: 400; /* Regular weight for paragraph */
+}
